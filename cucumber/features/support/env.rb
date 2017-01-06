@@ -6,7 +6,6 @@ require 'selenium-webdriver'
 require 'site_prism'
 require 'rspec'
 require 'yaml'
-require 'capybara/poltergeist'
 
 BROWSER = ENV['BROWSER']
 ENVIRONMENT_TYPE = ENV['ENVIRONMENT_TYPE']
