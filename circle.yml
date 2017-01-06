@@ -20,4 +20,4 @@ dependencies:
    - bundle install
 test:
  override:
-   - cd cucumber; cucumber -p qa
+   - cd cucumber; cucumber -p chrome -p qa --tags @gp_cadastro
