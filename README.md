@@ -116,3 +116,7 @@ Agora você vai ver a mágica acontecer, vai ver tudo sendo instalado bonitinho,
 E quando chegar na hora de executar o teste, ele vai rodar em "headles" e vai pasar lindamente. Porque as "", porque de fato, pra gente olhando o circle, parece em headless porque ele não ta abrindo o navegador, MAS, ele está sim, como se tivesse na sua máquina local, mas se o objetivo é ter os testes realmente em headles, configure seus testes para rodar em headless e depois instale o phantom ou xvfb ou qualquer coisa no arquivo circle.yml e taca pau.
 
 Ai agora o mais legal é..... pega o repositório e faça qualquer alteração, por mais simples que seja, commita e da um push e observe o bendito do circle executando a nova build pra você assim, de grátis.
+
+Bom galera, espero de s2 que tenham gostado, o circle é tão simples de usar que dá até gosto de se aprofundar mais nessa disciplina legal chamada de Ops, fora o upgrade que vai dar no cv não é =). 
+
+Essa foi de coração seus lindos. Vou escrever um mais pra frente falando sobre schedular os testes e fazê-los rodar no horário que eu quiser e da forma que eu quiser e como configurar para que a cada commit no projeto na empresa que você trabalha faça que os testes sejam executados. Não falei para não ficar muito extenso ok.
